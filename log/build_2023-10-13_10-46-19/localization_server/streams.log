@@ -1,0 +1,46 @@
+[4.664s] Invoking command in '/home/kazim/construct_ws/src/localization_server': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed
+[5.103s] running egg_info
+[5.104s] creating ../../build/localization_server/localization_server.egg-info
+[5.105s] writing ../../build/localization_server/localization_server.egg-info/PKG-INFO
+[5.105s] writing dependency_links to ../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[5.105s] writing entry points to ../../build/localization_server/localization_server.egg-info/entry_points.txt
+[5.105s] writing requirements to ../../build/localization_server/localization_server.egg-info/requires.txt
+[5.105s] writing top-level names to ../../build/localization_server/localization_server.egg-info/top_level.txt
+[5.106s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[5.110s] reading manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[5.111s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[5.111s] running build
+[5.111s] running build_py
+[5.111s] creating /home/kazim/construct_ws/build/localization_server/build
+[5.111s] creating /home/kazim/construct_ws/build/localization_server/build/lib
+[5.111s] creating /home/kazim/construct_ws/build/localization_server/build/lib/localization_server
+[5.113s] copying localization_server/__init__.py -> /home/kazim/construct_ws/build/localization_server/build/lib/localization_server
+[5.113s] copying localization_server/initial_pose_pub.py -> /home/kazim/construct_ws/build/localization_server/build/lib/localization_server
+[5.113s] running install
+[5.113s] running install_lib
+[5.114s] creating /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[5.114s] copying /home/kazim/construct_ws/build/localization_server/build/lib/localization_server/__init__.py -> /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[5.114s] copying /home/kazim/construct_ws/build/localization_server/build/lib/localization_server/initial_pose_pub.py -> /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[5.115s] byte-compiling /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py to __init__.cpython-310.pyc
+[5.116s] byte-compiling /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server/initial_pose_pub.py to initial_pose_pub.cpython-310.pyc
+[5.116s] running install_data
+[5.118s] creating /home/kazim/construct_ws/install/localization_server/share/ament_index
+[5.118s] creating /home/kazim/construct_ws/install/localization_server/share/ament_index/resource_index
+[5.118s] creating /home/kazim/construct_ws/install/localization_server/share/ament_index/resource_index/packages
+[5.118s] copying resource/localization_server -> /home/kazim/construct_ws/install/localization_server/share/ament_index/resource_index/packages
+[5.119s] copying package.xml -> /home/kazim/construct_ws/install/localization_server/share/localization_server
+[5.119s] creating /home/kazim/construct_ws/install/localization_server/share/localization_server/launch
+[5.119s] copying launch/localization.launch.py -> /home/kazim/construct_ws/install/localization_server/share/localization_server/launch
+[5.119s] copying launch/multi_localization.launch.py -> /home/kazim/construct_ws/install/localization_server/share/localization_server/launch
+[5.119s] copying launch/init_robot.launch.py -> /home/kazim/construct_ws/install/localization_server/share/localization_server/launch
+[5.119s] creating /home/kazim/construct_ws/install/localization_server/share/localization_server/config
+[5.119s] copying config/amcl_config_initialized.yaml -> /home/kazim/construct_ws/install/localization_server/share/localization_server/config
+[5.120s] copying config/amcl_config.yaml -> /home/kazim/construct_ws/install/localization_server/share/localization_server/config
+[5.120s] copying config/tb3_1_amcl_config.yaml -> /home/kazim/construct_ws/install/localization_server/share/localization_server/config
+[5.120s] copying config/tb3_0_amcl_config.yaml -> /home/kazim/construct_ws/install/localization_server/share/localization_server/config
+[5.120s] running install_egg_info
+[5.124s] Copying ../../build/localization_server/localization_server.egg-info to /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[5.124s] running install_scripts
+[5.164s] Installing initial_pose_pub script to /home/kazim/construct_ws/install/localization_server/lib/localization_server
+[5.165s] writing list of installed files to '/home/kazim/construct_ws/build/localization_server/install.log'
+[5.740s] Invoked command in '/home/kazim/construct_ws/src/localization_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed

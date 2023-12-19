@@ -1,0 +1,33 @@
+[4.414s] Invoking command in '/home/kazim/construct_ws/src/my_package': PYTHONPATH=/home/kazim/construct_ws/build/my_package/prefix_override:/home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/kazim/construct_ws/build/my_package/build install --record /home/kazim/construct_ws/build/my_package/install.log --single-version-externally-managed
+[4.808s] running egg_info
+[4.809s] creating ../../build/my_package/my_package.egg-info
+[4.810s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[4.810s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[4.811s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[4.811s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[4.811s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[4.812s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.815s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.815s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.815s] running build
+[4.815s] running build_py
+[4.815s] creating /home/kazim/construct_ws/build/my_package/build
+[4.815s] creating /home/kazim/construct_ws/build/my_package/build/lib
+[4.815s] creating /home/kazim/construct_ws/build/my_package/build/lib/my_package
+[4.816s] copying my_package/__init__.py -> /home/kazim/construct_ws/build/my_package/build/lib/my_package
+[4.816s] running install
+[4.816s] running install_lib
+[4.816s] creating /home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package
+[4.817s] copying /home/kazim/construct_ws/build/my_package/build/lib/my_package/__init__.py -> /home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package
+[4.817s] byte-compiling /home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[4.817s] running install_data
+[4.818s] creating /home/kazim/construct_ws/install/my_package/share/ament_index
+[4.818s] creating /home/kazim/construct_ws/install/my_package/share/ament_index/resource_index
+[4.818s] creating /home/kazim/construct_ws/install/my_package/share/ament_index/resource_index/packages
+[4.818s] copying resource/my_package -> /home/kazim/construct_ws/install/my_package/share/ament_index/resource_index/packages
+[4.818s] copying package.xml -> /home/kazim/construct_ws/install/my_package/share/my_package
+[4.818s] running install_egg_info
+[4.820s] Copying ../../build/my_package/my_package.egg-info to /home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.821s] running install_scripts
+[4.856s] writing list of installed files to '/home/kazim/construct_ws/build/my_package/install.log'
+[4.984s] Invoked command in '/home/kazim/construct_ws/src/my_package' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/my_package/prefix_override:/home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/kazim/construct_ws/build/my_package/build install --record /home/kazim/construct_ws/build/my_package/install.log --single-version-externally-managed

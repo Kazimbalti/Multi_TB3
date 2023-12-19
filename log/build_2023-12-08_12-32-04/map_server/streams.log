@@ -1,0 +1,19 @@
+[2.847s] Invoking command in '/home/kazim/construct_ws/src/map_server': PYTHONPATH=/home/kazim/construct_ws/build/map_server/prefix_override:/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/kazim/construct_ws/build/map_server/build install --record /home/kazim/construct_ws/build/map_server/install.log --single-version-externally-managed
+[3.103s] running egg_info
+[3.103s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[3.103s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[3.103s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[3.104s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[3.104s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[3.104s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[3.104s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[3.104s] running build
+[3.104s] running build_py
+[3.105s] running install
+[3.105s] running install_lib
+[3.106s] running install_data
+[3.106s] running install_egg_info
+[3.107s] removing '/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.108s] Copying ../../build/map_server/map_server.egg-info to /home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[3.108s] running install_scripts
+[3.125s] writing list of installed files to '/home/kazim/construct_ws/build/map_server/install.log'

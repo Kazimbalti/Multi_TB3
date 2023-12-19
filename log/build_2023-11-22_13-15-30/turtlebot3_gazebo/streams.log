@@ -1,0 +1,120 @@
+[2.135s] Invoking command in '/home/kazim/construct_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/autonomous_ws/install/nav2_simple_commander:/home/kazim/autonomous_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16
+[2.196s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[2.207s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[2.210s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[2.210s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[10.535s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[10.925s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[10.926s] [ 87%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[10.929s] [100%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[10.971s] [100%] Built target turtlebot3_drive
+[11.103s] [100%] Built target obstacle2
+[11.115s] [100%] Built target obstacles
+[11.115s] [100%] Built target obstacle1
+[11.123s] Invoked command in '/home/kazim/construct_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/autonomous_ws/install/nav2_simple_commander:/home/kazim/autonomous_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16
+[11.201s] Invoking command in '/home/kazim/construct_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/autonomous_ws/install/nav2_simple_commander:/home/kazim/autonomous_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/turtlebot3_gazebo
+[11.225s] -- Install configuration: ""
+[11.226s] -- Installing: /home/kazim/construct_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[11.230s] -- Set runtime path of "/home/kazim/construct_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[11.230s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_1
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_1/model.config
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_1/model.sdf
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_1/model-1_4.sdf
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[11.231s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[11.232s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_0
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_0/model.config
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_0/model.sdf
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_0/model-1_4.sdf
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[11.233s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[11.234s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[11.235s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//config
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//config/tb3_0.rviz
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//config/tb3_1.rviz
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/include/
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[11.236s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[11.237s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[11.238s] -- Installing: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.238s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.239s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[11.239s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[11.239s] -- Up-to-date: /home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[11.243s] Invoked command in '/home/kazim/construct_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/autonomous_ws/install/nav2_simple_commander:/home/kazim/autonomous_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/turtlebot3_gazebo

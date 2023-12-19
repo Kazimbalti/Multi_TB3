@@ -1,0 +1,21 @@
+[2.814s] Invoking command in '/home/kazim/construct_ws/src/localization_server': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed
+[3.070s] running egg_info
+[3.070s] writing ../../build/localization_server/localization_server.egg-info/PKG-INFO
+[3.070s] writing dependency_links to ../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[3.071s] writing entry points to ../../build/localization_server/localization_server.egg-info/entry_points.txt
+[3.071s] writing requirements to ../../build/localization_server/localization_server.egg-info/requires.txt
+[3.071s] writing top-level names to ../../build/localization_server/localization_server.egg-info/top_level.txt
+[3.072s] reading manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[3.072s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[3.072s] running build
+[3.073s] running build_py
+[3.073s] running install
+[3.073s] running install_lib
+[3.073s] running install_data
+[3.074s] running install_egg_info
+[3.075s] removing '/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.075s] Copying ../../build/localization_server/localization_server.egg-info to /home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[3.075s] running install_scripts
+[3.093s] Installing initial_pose_pub script to /home/kazim/construct_ws/install/localization_server/lib/localization_server
+[3.094s] writing list of installed files to '/home/kazim/construct_ws/build/localization_server/install.log'
+[3.328s] Invoked command in '/home/kazim/construct_ws/src/localization_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/layers.dir/build.make:90: CMakeFiles/layers.dir/plugins/static_layer.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:295: CMakeFiles/layers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

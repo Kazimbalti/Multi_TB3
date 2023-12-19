@@ -1,0 +1,29 @@
+[1.118s] Invoking command in '/home/kazim/construct_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/build/nav2_simple_commander/prefix_override:/home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/kazim/construct_ws/build/nav2_simple_commander/build install --record /home/kazim/construct_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[1.476s] running egg_info
+[1.477s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.477s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.477s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.477s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.477s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.479s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.480s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.480s] running build
+[1.480s] running build_py
+[1.481s] running install
+[1.481s] running install_lib
+[1.482s] running install_data
+[1.483s] running install_egg_info
+[1.484s] removing '/home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info' (and everything under it)
+[1.484s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.484s] running install_scripts
+[1.497s] Installing demo_inspection script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.497s] Installing demo_picking script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing demo_recoveries script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing demo_security script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing example_assisted_teleop script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing example_follow_path script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing example_nav_through_poses script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing example_nav_to_pose script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] Installing example_waypoint_follower script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.498s] writing list of installed files to '/home/kazim/construct_ws/build/nav2_simple_commander/install.log'
+[2.020s] Invoked command in '/home/kazim/construct_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/build/nav2_simple_commander/prefix_override:/home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/kazim/construct_ws/build/nav2_simple_commander/build install --record /home/kazim/construct_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

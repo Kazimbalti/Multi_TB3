@@ -1,0 +1,85 @@
+[3.995s] Invoking command in '/home/kazim/construct_ws/src/autonomous_tb3': PYTHONPATH=/home/kazim/construct_ws/build/autonomous_tb3/prefix_override:/home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kazim/construct_ws/build/autonomous_tb3/build install --record /home/kazim/construct_ws/build/autonomous_tb3/install.log --single-version-externally-managed
+[4.696s] running egg_info
+[4.696s] creating ../../build/autonomous_tb3/autonomous_tb3.egg-info
+[4.697s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[4.697s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[4.698s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[4.698s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[4.698s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[4.698s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[4.702s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[4.703s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[4.703s] running build
+[4.703s] running build_py
+[4.704s] creating /home/kazim/construct_ws/build/autonomous_tb3/build
+[4.704s] creating /home/kazim/construct_ws/build/autonomous_tb3/build/lib
+[4.704s] creating /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/hotel_waiter_multi_button.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/spawn_entity.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/hotel_waiter_single_goal.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/__init__.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/occupancy_grid_pub.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.704s] copying autonomous_tb3/maze_solver.py -> /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3
+[4.705s] running install
+[4.706s] running install_lib
+[4.708s] creating /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.708s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_multi_button.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.708s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/spawn_entity.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.708s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/hotel_waiter_single_goal.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.708s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/__init__.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.708s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/occupancy_grid_pub.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.709s] copying /home/kazim/construct_ws/build/autonomous_tb3/build/lib/autonomous_tb3/maze_solver.py -> /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3
+[4.712s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_multi_button.py to hotel_waiter_multi_button.cpython-310.pyc
+[4.712s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/spawn_entity.py to spawn_entity.cpython-310.pyc
+[4.713s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/hotel_waiter_single_goal.py to hotel_waiter_single_goal.cpython-310.pyc
+[4.713s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/__init__.py to __init__.cpython-310.pyc
+[4.713s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/occupancy_grid_pub.py to occupancy_grid_pub.cpython-310.pyc
+[4.713s] byte-compiling /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3/maze_solver.py to maze_solver.cpython-310.pyc
+[4.713s] running install_data
+[4.715s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/ament_index
+[4.715s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/ament_index/resource_index
+[4.715s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[4.715s] copying resource/autonomous_tb3 -> /home/kazim/construct_ws/install/autonomous_tb3/share/ament_index/resource_index/packages
+[4.716s] copying package.xml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3
+[4.716s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[4.716s] copying launch/hotel_waiter.launch.py -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[4.716s] copying launch/mapping.launch.py -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[4.716s] copying launch/tb3_world_navigation.launch.py -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[4.716s] copying launch/maze_navigation.launch.py -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/launch
+[4.716s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.716s] copying config/tb3_nav_params_MPPI.yaml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.716s] copying config/tb3_world.pgm -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.716s] copying config/hotel_map.yaml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.716s] copying config/tb3_nav_params.yaml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.716s] copying config/mapping.rviz -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/hotel_map.pgm -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/tb3_world.yaml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/tb3_nav.rviz -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/maze.pgm -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/tb3_cartographer.lua -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] copying config/maze.yaml -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/config
+[4.717s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world
+[4.718s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[4.718s] copying world/maze/model.config -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[4.718s] copying world/maze/model.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/maze
+[4.718s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/hotel
+[4.718s] copying world/hotel/empty_world.world -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/hotel
+[4.718s] copying world/hotel/model.config -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/hotel
+[4.718s] copying world/hotel/model.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/world/hotel
+[4.718s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models
+[4.718s] creating /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.718s] copying models/table/model.config -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.718s] copying models/table/model-1_3.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.719s] copying models/table/model.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.719s] copying models/table/model-1_4.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.719s] copying models/table/model-1_2.sdf -> /home/kazim/construct_ws/install/autonomous_tb3/share/autonomous_tb3/models/table
+[4.719s] running install_egg_info
+[4.722s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[4.723s] running install_scripts
+[4.767s] Installing autonomous_waiter script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[4.768s] Installing autonomous_waiter_lite script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[4.768s] Installing maze_solver script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[4.768s] Installing occupancy_grid_pub script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[4.768s] Installing sdf_spawner script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[4.769s] writing list of installed files to '/home/kazim/construct_ws/build/autonomous_tb3/install.log'
+[5.365s] Invoked command in '/home/kazim/construct_ws/src/autonomous_tb3' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/autonomous_tb3/prefix_override:/home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kazim/construct_ws/build/autonomous_tb3/build install --record /home/kazim/construct_ws/build/autonomous_tb3/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[3.634s] Invoking command in '/home/kazim/construct_ws/src/autonomous_tb3': PYTHONPATH=/home/kazim/construct_ws/build/autonomous_tb3/prefix_override:/home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kazim/construct_ws/build/autonomous_tb3/build install --record /home/kazim/construct_ws/build/autonomous_tb3/install.log --single-version-externally-managed
+[3.890s] running egg_info
+[3.891s] writing ../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[3.891s] writing dependency_links to ../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[3.891s] writing entry points to ../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[3.891s] writing requirements to ../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[3.891s] writing top-level names to ../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[3.894s] reading manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[3.895s] writing manifest file '../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[3.895s] running build
+[3.895s] running build_py
+[3.896s] running install
+[3.896s] running install_lib
+[3.898s] running install_data
+[3.900s] running install_egg_info
+[3.901s] removing '/home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info' (and everything under it)
+[3.902s] Copying ../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[3.902s] running install_scripts
+[3.925s] Installing autonomous_waiter script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[3.926s] Installing autonomous_waiter_lite script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[3.926s] Installing maze_solver script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[3.927s] Installing occupancy_grid_pub script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[3.927s] Installing sdf_spawner script to /home/kazim/construct_ws/install/autonomous_tb3/lib/autonomous_tb3
+[3.927s] writing list of installed files to '/home/kazim/construct_ws/build/autonomous_tb3/install.log'
+[4.218s] Invoked command in '/home/kazim/construct_ws/src/autonomous_tb3' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/autonomous_tb3/prefix_override:/home/kazim/construct_ws/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_tb3 build --build-base /home/kazim/construct_ws/build/autonomous_tb3/build install --record /home/kazim/construct_ws/build/autonomous_tb3/install.log --single-version-externally-managed

@@ -1,0 +1,47 @@
+[1.755s] Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_simple_commander:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/construct_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[2.439s] Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_simple_commander:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/construct_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[2.519s] Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_simple_commander:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/construct_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course
+[2.547s] -- Install configuration: "Release"
+[2.547s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch
+[2.547s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/tb3_world_navigation_with_tools_launch.py
+[2.547s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/rviz.launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/navigation2_launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/map_server_launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/localization_launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/nav2_demo.launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/nav2_complete.launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/map_saver.launch.py
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/localization_params.yaml
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_params.yaml
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_house_sim_params.yaml
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.pgm
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery.xml
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery_old.xml
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/default.rviz
+[2.548s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_default_view.rviz
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.yaml
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2.yaml
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/waffle.model
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/house_waffle.model
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/world_only.model
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.yaml
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.pgm
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/package_run_dependencies/nav2_course
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/parent_prefix_path/nav2_course
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.sh
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.dsv
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/path.sh
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/path.dsv
+[2.549s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.bash
+[2.550s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.sh
+[2.550s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.zsh
+[2.550s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.dsv
+[2.550s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.dsv
+[2.550s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/packages/nav2_course
+[2.551s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig.cmake
+[2.551s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig-version.cmake
+[2.551s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.xml
+[2.554s] Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_simple_commander:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/construct_ws/install/autonomous_tb3:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course

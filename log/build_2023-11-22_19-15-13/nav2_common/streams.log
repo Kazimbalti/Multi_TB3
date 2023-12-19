@@ -1,0 +1,48 @@
+[0.815s] Invoking command in '/home/kazim/construct_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_common -- -j16 -l16
+[3.031s] Built target ament_cmake_python_copy_nav2_common
+[3.031s] running egg_info
+[3.031s] writing nav2_common.egg-info/PKG-INFO
+[3.031s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[3.031s] writing top-level names to nav2_common.egg-info/top_level.txt
+[3.031s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.031s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[3.032s] Built target ament_cmake_python_build_nav2_common_egg
+[3.038s] Invoked command in '/home/kazim/construct_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_common -- -j16 -l16
+[3.103s] Invoking command in '/home/kazim/construct_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_common
+[3.129s] -- Install configuration: ""
+[3.129s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[3.129s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[3.129s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info
+[3.129s] -- Installing: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/top_level.txt
+[3.130s] -- Installing: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/PKG-INFO
+[3.130s] -- Installing: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/SOURCES.txt
+[3.130s] -- Installing: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/dependency_links.txt
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[3.130s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[3.155s] Listing '/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[3.155s] Listing '/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[3.159s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.159s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.159s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.159s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[3.160s] -- Installing: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/package.dsv
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/package.xml
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake
+[3.160s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.165s] Invoked command in '/home/kazim/construct_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_common

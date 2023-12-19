@@ -1,0 +1,75 @@
+[2.161s] Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/ros2_nav_files/nav2_course -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_course
+[3.299s] -- The C compiler identification is GNU 11.4.0
+[3.299s] -- The CXX compiler identification is GNU 11.4.0
+[3.299s] -- Detecting C compiler ABI info
+[3.299s] -- Detecting C compiler ABI info - done
+[3.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.299s] -- Detecting C compile features
+[3.299s] -- Detecting C compile features - done
+[3.299s] -- Detecting CXX compiler ABI info
+[3.299s] -- Detecting CXX compiler ABI info - done
+[3.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.300s] -- Detecting CXX compile features
+[3.300s] -- Detecting CXX compile features - done
+[3.300s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.300s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.476s] -- Found nav2_common: 1.1.9 (/opt/ros/humble/share/nav2_common/cmake)
+[3.480s] -- Found navigation2: 1.1.9 (/opt/ros/humble/share/navigation2/cmake)
+[3.480s] -- Setting build type to Release as none was specified.
+[3.485s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.685s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.691s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.696s] -- Added test 'lint_cmake' to check CMake code style
+[3.698s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.702s] -- Added test 'xmllint' to check XML markup files
+[3.708s] -- Configuring done (1.5s)
+[3.714s] -- Generating done (0.0s)
+[3.715s] -- Build files have been written to: /home/kazim/construct_ws/build/nav2_course
+[3.742s] Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/ros2_nav_files/nav2_course -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_course
+[3.749s] Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[3.828s] Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[3.970s] Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course
+[4.023s] -- Install configuration: "Release"
+[4.024s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch
+[4.024s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/tb3_world_navigation_with_tools_launch.py
+[4.024s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/rviz.launch.py
+[4.024s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/navigation2_launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/map_server_launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/localization_launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/nav2_demo.launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/nav2_complete.launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/launch/map_saver.launch.py
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config
+[4.025s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/localization_params.yaml
+[4.026s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_params.yaml
+[4.026s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_house_sim_params.yaml
+[4.026s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.pgm
+[4.028s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery.xml
+[4.028s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery_old.xml
+[4.029s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/default.rviz
+[4.029s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2_default_view.rviz
+[4.029s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.yaml
+[4.029s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/config/nav2.yaml
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/waffle.model
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/house_waffle.model
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/worlds/world_only.model
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.yaml
+[4.030s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.pgm
+[4.031s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/package_run_dependencies/nav2_course
+[4.031s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/parent_prefix_path/nav2_course
+[4.031s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.sh
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.dsv
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/path.sh
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/environment/path.dsv
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.bash
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.sh
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.zsh
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/local_setup.dsv
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.dsv
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/ament_index/resource_index/packages/nav2_course
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig.cmake
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig-version.cmake
+[4.032s] -- Installing: /home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.xml
+[4.053s] Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course

@@ -1,0 +1,207 @@
+[0.836s] Invoking command in '/home/kazim/construct_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_smac_planner
+[37.487s] -- The C compiler identification is GNU 11.4.0
+[37.487s] -- The CXX compiler identification is GNU 11.4.0
+[37.487s] -- Detecting C compiler ABI info
+[37.487s] -- Detecting C compiler ABI info - done
+[37.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[37.487s] -- Detecting C compile features
+[37.487s] -- Detecting C compile features - done
+[37.488s] -- Detecting CXX compiler ABI info
+[37.488s] -- Detecting CXX compiler ABI info - done
+[37.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[37.488s] -- Detecting CXX compile features
+[37.488s] -- Detecting CXX compile features - done
+[37.488s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[37.488s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[37.488s] -- Found nav2_common: 1.1.12 (/home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake)
+[37.488s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[37.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[37.489s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[37.489s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[37.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.489s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[37.489s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[37.489s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[37.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[37.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[37.490s] -- Found Threads: TRUE  
+[37.490s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[37.490s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[37.490s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[37.490s] -- Found nav2_util: 1.1.12 (/home/kazim/construct_ws/install/nav2_util/share/nav2_util/cmake)
+[37.490s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[37.491s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[37.491s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[37.491s] -- Found nav2_core: 1.1.12 (/home/kazim/construct_ws/install/nav2_core/share/nav2_core/cmake)
+[37.491s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[37.491s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[37.491s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[37.491s] -- Found OpenMP: TRUE (found version "4.5")  
+[37.491s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[37.491s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[51.749s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[51.956s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[134.907s] -- Added test 'copyright' to check source files copyright and LICENSE
+[134.923s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[134.926s] -- Configured cppcheck include dirs: /home/kazim/construct_ws/src/navigation2/nav2_smac_planner/include
+[134.926s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[134.934s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[134.934s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[134.937s] -- Added test 'flake8' to check Python code syntax and style conventions
+[134.959s] -- Added test 'lint_cmake' to check CMake code style
+[134.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[134.969s] -- Added test 'uncrustify' to check C / C++ code style
+[134.970s] -- Configured uncrustify additional arguments: 
+[134.985s] -- Added test 'xmllint' to check XML markup files
+[134.992s] -- Configuring done (134.0s)
+[136.269s] -- Generating done (1.0s)
+[136.276s] -- Build files have been written to: /home/kazim/construct_ws/build/nav2_smac_planner
+[136.327s] Invoked command in '/home/kazim/construct_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_smac_planner
+[136.328s] Invoking command in '/home/kazim/construct_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_smac_planner -- -j16 -l16
+[136.441s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[156.297s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[166.154s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[166.169s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[166.169s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[176.031s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[177.160s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[191.412s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[199.875s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[199.876s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[210.744s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[211.272s] [ 18%] Built target nav2_smac_planner
+[211.283s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[211.287s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[211.290s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[211.291s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[211.291s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[211.291s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[211.292s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[211.292s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[211.293s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[211.294s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[211.298s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[213.144s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[213.475s] [ 38%] Built target gtest_main
+[213.522s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[219.843s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[219.844s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[220.415s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[242.031s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[242.472s] [ 47%] Built target gtest
+[273.145s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[280.914s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[284.498s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[287.878s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[289.532s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[293.384s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[298.093s] [ 59%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[298.555s] [ 59%] Built target nav2_smac_planner_2d
+[300.005s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[306.859s] [ 62%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[306.859s] [ 62%] Built target nav2_smac_planner_lattice
+[306.860s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[313.958s] [ 66%] [32m[1mLinking CXX executable test_smac_2d[0m
+[314.277s] [ 66%] Built target test_smac_2d
+[314.290s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[321.700s] [ 69%] [32m[1mLinking CXX executable test_smoother[0m
+[322.044s] [ 69%] Built target test_smoother
+[322.054s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[322.054s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[329.903s] [ 74%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[330.279s] [ 74%] Built target test_smac_lattice
+[330.291s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[330.291s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[330.292s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[330.294s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[330.294s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[330.296s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[330.296s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[331.651s] [ 88%] [32m[1mLinking CXX executable test_lattice_node[0m
+[332.214s] [ 88%] Built target test_lattice_node
+[335.823s] [ 89%] [32m[1mLinking CXX executable test_collision_checker[0m
+[336.302s] [ 89%] Built target test_collision_checker
+[336.615s] [ 91%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[337.069s] [ 91%] Built target test_costmap_downsampler
+[338.177s] [ 93%] [32m[1mLinking CXX executable test_node2d[0m
+[338.601s] [ 93%] Built target test_node2d
+[339.136s] [ 94%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[339.494s] [ 96%] [32m[1mLinking CXX executable test_nodebasic[0m
+[339.503s] [ 96%] Built target test_nodehybrid
+[339.759s] [ 96%] Built target test_nodebasic
+[339.973s] [ 98%] [32m[1mLinking CXX executable test_a_star[0m
+[340.316s] [ 98%] Built target test_a_star
+[340.681s] [100%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[340.968s] [100%] Built target test_smac_hybrid
+[341.256s] Invoked command in '/home/kazim/construct_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_smac_planner -- -j16 -l16
+[341.317s] Invoking command in '/home/kazim/construct_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_smac_planner
+[341.340s] -- Install configuration: "Release"
+[341.340s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[341.342s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[341.342s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[341.343s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[341.347s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[341.347s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[341.347s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include/
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[341.347s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[341.348s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[341.349s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[341.349s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[341.350s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[341.350s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[341.351s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[341.351s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[341.353s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[341.353s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[341.356s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[341.356s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[341.358s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[341.359s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[341.359s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[341.360s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[341.361s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[341.361s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[341.361s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[341.362s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[341.363s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[341.363s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[341.365s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[341.365s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[341.368s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[341.368s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[341.368s] -- Installing: /home/kazim/construct_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[341.375s] Invoked command in '/home/kazim/construct_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_smac_planner

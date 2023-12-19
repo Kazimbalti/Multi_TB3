@@ -1,0 +1,131 @@
+[  2%] Built target gtest_main
+[  4%] Built target gtest
+[  7%] Built target order_layer
+[ 24%] Built target nav2_costmap_2d_core
+[ 25%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[ 28%] Built target array_parser_test
+[ 30%] Built target costmap_bresenham_2d
+[ 32%] Built target nav2_costmap_2d_markers
+[ 35%] Built target nav2_costmap_2d_cloud
+[ 37%] Built target declare_parameter_test
+[ 40%] Built target costmap_filter_test
+[ 42%] Built target costmap_convesion_test
+[ 45%] Built target copy_window_test
+[ 47%] Built target collision_footprint_test
+[ 50%] Built target costmap_filter_service_test
+[ 52%] Built target dyn_params_tests
+[ 57%] Built target nav2_costmap_2d_client
+[ 62%] Built target filters
+[ 63%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[ 64%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[ 65%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable plugin_api_order[0m
+[ 68%] Built target plugin_api_order
+[ 69%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[ 69%] Built target keepout_filter_test
+[ 70%] [32m[1mLinking CXX executable binary_filter_test[0m
+[ 71%] [32m[1mLinking CXX executable speed_filter_test[0m
+[ 71%] Built target binary_filter_test
+[ 71%] Built target speed_filter_test
+[ 73%] [32m[1mLinking CXX shared library liblayers.so[0m
+[ 80%] Built target layers
+[ 82%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[ 87%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[ 90%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[ 90%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[ 91%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[ 93%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[ 93%] Built target footprint_tests_exec
+[ 93%] Built target nav2_costmap_2d
+[ 95%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[ 95%] Built target denoise_layer_test
+[ 96%] [32m[1mLinking CXX executable range_tests_exec[0m
+[ 96%] Built target range_tests_exec
+[ 97%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[ 98%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[ 98%] Built target obstacle_tests_exec
+[100%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[100%] Built target test_collision_checker_exec
+[100%] Built target inflation_tests_exec
+-- Install configuration: "Release"
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/liblayers.so
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/liblayers.so" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libfilters.so
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libfilters.so" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include/
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image_processing.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+-- Up-to-date: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+-- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+-- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/liborder_layer.so" to ""

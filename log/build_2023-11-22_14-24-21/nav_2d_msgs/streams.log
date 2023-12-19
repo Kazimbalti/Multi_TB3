@@ -1,0 +1,237 @@
+[0.744s] Invoking command in '/home/kazim/construct_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav_2d_msgs -- -j16 -l16
+[2.961s] [  1%] Built target nav_2d_msgs__cpp
+[2.961s] [  1%] Built target ament_cmake_python_copy_nav_2d_msgs
+[2.961s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[2.961s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[2.961s] [ 38%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[2.961s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[2.961s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_c
+[2.961s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[2.961s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[2.961s] [ 80%] Built target nav_2d_msgs
+[2.961s] [ 81%] Built target nav_2d_msgs__py
+[2.961s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[2.961s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.961s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[2.961s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[2.962s] running egg_info
+[2.962s] writing nav_2d_msgs.egg-info/PKG-INFO
+[2.962s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[2.962s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[2.963s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.963s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.963s] [100%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[2.965s] Invoked command in '/home/kazim/construct_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav_2d_msgs -- -j16 -l16
+[3.079s] Invoking command in '/home/kazim/construct_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav_2d_msgs
+[3.103s] -- Install configuration: ""
+[3.104s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[3.104s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.104s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[3.105s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[3.106s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[3.107s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.108s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.109s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[3.110s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[3.111s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[3.112s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.113s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[3.114s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info
+[3.116s] -- Installing: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/top_level.txt
+[3.116s] -- Installing: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/PKG-INFO
+[3.116s] -- Installing: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/SOURCES.txt
+[3.116s] -- Installing: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.12-py3.10.egg-info/dependency_links.txt
+[3.116s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[3.117s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.118s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.134s] Listing '/home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[3.134s] Listing '/home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[3.137s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.137s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.137s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[3.138s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[3.139s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[3.140s] -- Installing: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.140s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[3.141s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[3.142s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[3.143s] -- Up-to-date: /home/kazim/construct_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[3.217s] Invoked command in '/home/kazim/construct_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav_2d_msgs

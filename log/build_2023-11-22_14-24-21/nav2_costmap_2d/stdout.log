@@ -1,0 +1,52 @@
+[  2%] Built target gtest_main
+[  4%] Built target gtest
+[  7%] Built target order_layer
+[ 24%] Built target nav2_costmap_2d_core
+[ 25%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[ 43%] Built target array_parser_test
+[ 45%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[ 46%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[ 47%] Built target declare_parameter_test
+[ 48%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[ 52%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o[0m
+[ 52%] Built target costmap_convesion_test
+[ 53%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[ 54%] Built target collision_footprint_test
+[ 56%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable copy_window_test[0m
+[ 58%] Built target copy_window_test
+[ 59%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable costmap_filter_test[0m
+[ 62%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[ 62%] Built target costmap_bresenham_2d
+[ 62%] Built target costmap_filter_test
+[ 63%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[ 63%] Built target nav2_costmap_2d_markers
+[ 64%] [32m[1mLinking CXX executable costmap_filter_service_test[0m
+[ 65%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[ 67%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[ 67%] Built target costmap_filter_service_test
+[ 67%] Built target nav2_costmap_2d_client
+[ 67%] Built target nav2_costmap_2d_cloud
+[ 68%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[ 68%] Built target dyn_params_tests
+[ 69%] [32m[1mLinking CXX shared library libfilters.so[0m
+[ 69%] Built target filters

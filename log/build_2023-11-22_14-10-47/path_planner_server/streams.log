@@ -1,0 +1,20 @@
+[3.478s] Invoking command in '/home/kazim/construct_ws/src/path_planner_server': PYTHONPATH=/home/kazim/construct_ws/build/path_planner_server/prefix_override:/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/kazim/construct_ws/build/path_planner_server/build install --record /home/kazim/construct_ws/build/path_planner_server/install.log --single-version-externally-managed
+[3.800s] running egg_info
+[3.801s] writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO
+[3.801s] writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt
+[3.801s] writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt
+[3.801s] writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt
+[3.801s] writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
+[3.805s] reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[3.807s] writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[3.807s] running build
+[3.807s] running build_py
+[3.808s] running install
+[3.808s] running install_lib
+[3.810s] running install_data
+[3.813s] running install_egg_info
+[3.815s] removing '/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.815s] Copying ../../build/path_planner_server/path_planner_server.egg-info to /home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info
+[3.816s] running install_scripts
+[3.848s] writing list of installed files to '/home/kazim/construct_ws/build/path_planner_server/install.log'
+[3.888s] Invoked command in '/home/kazim/construct_ws/src/path_planner_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/path_planner_server/prefix_override:/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/kazim/construct_ws/build/path_planner_server/build install --record /home/kazim/construct_ws/build/path_planner_server/install.log --single-version-externally-managed

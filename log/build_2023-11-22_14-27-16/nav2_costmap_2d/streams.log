@@ -1,0 +1,135 @@
+[0.159s] Invoking command in '/home/kazim/construct_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_map_server/lib:/home/kazim/construct_ws/install/nav2_lifecycle_manager/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_costmap_2d -- -j16 -l16
+[0.198s] [  2%] Built target gtest_main
+[0.198s] [  4%] Built target gtest
+[0.202s] [  7%] Built target order_layer
+[0.217s] [ 24%] Built target nav2_costmap_2d_core
+[0.231s] [ 25%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[0.234s] [ 28%] Built target array_parser_test
+[0.236s] [ 30%] Built target costmap_bresenham_2d
+[0.238s] [ 32%] Built target nav2_costmap_2d_markers
+[0.238s] [ 35%] Built target nav2_costmap_2d_cloud
+[0.240s] [ 37%] Built target declare_parameter_test
+[0.240s] [ 40%] Built target costmap_filter_test
+[0.241s] [ 42%] Built target costmap_convesion_test
+[0.241s] [ 45%] Built target copy_window_test
+[0.242s] [ 47%] Built target collision_footprint_test
+[0.242s] [ 50%] Built target costmap_filter_service_test
+[0.243s] [ 52%] Built target dyn_params_tests
+[0.245s] [ 57%] Built target nav2_costmap_2d_client
+[0.246s] [ 62%] Built target filters
+[0.255s] [ 63%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[0.256s] [ 64%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[0.256s] [ 65%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[0.256s] [ 67%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[4.406s] [ 68%] [32m[1mLinking CXX executable plugin_api_order[0m
+[4.571s] [ 68%] Built target plugin_api_order
+[6.609s] [ 69%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[6.863s] [ 69%] Built target keepout_filter_test
+[10.868s] [ 70%] [32m[1mLinking CXX executable binary_filter_test[0m
+[10.923s] [ 71%] [32m[1mLinking CXX executable speed_filter_test[0m
+[11.133s] [ 71%] Built target binary_filter_test
+[11.185s] [ 71%] Built target speed_filter_test
+[11.385s] [ 73%] [32m[1mLinking CXX shared library liblayers.so[0m
+[11.723s] [ 80%] Built target layers
+[11.731s] [ 82%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[11.731s] [ 82%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[11.731s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[11.732s] [ 86%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[11.732s] [ 86%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[11.732s] [ 87%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[11.732s] [ 90%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[11.732s] [ 90%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[11.733s] [ 91%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[16.695s] [ 92%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[16.789s] [ 93%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[17.019s] [ 93%] Built target footprint_tests_exec
+[17.080s] [ 93%] Built target nav2_costmap_2d
+[18.012s] [ 95%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[18.357s] [ 95%] Built target denoise_layer_test
+[19.961s] [ 96%] [32m[1mLinking CXX executable range_tests_exec[0m
+[20.294s] [ 96%] Built target range_tests_exec
+[21.321s] [ 97%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[21.707s] [ 98%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[21.821s] [ 98%] Built target obstacle_tests_exec
+[21.878s] [100%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[22.431s] [100%] Built target test_collision_checker_exec
+[22.542s] [100%] Built target inflation_tests_exec
+[22.552s] Invoked command in '/home/kazim/construct_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_map_server/lib:/home/kazim/construct_ws/install/nav2_lifecycle_manager/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_costmap_2d -- -j16 -l16
+[22.686s] Invoking command in '/home/kazim/construct_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_map_server/lib:/home/kazim/construct_ws/install/nav2_lifecycle_manager/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_costmap_2d
+[22.715s] -- Install configuration: "Release"
+[22.715s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[22.718s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[22.718s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/liblayers.so
+[22.720s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[22.720s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libfilters.so
+[22.722s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[22.722s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[22.723s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[22.724s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[22.724s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[22.724s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[22.724s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[22.724s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[22.725s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[22.725s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[22.725s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include/
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise/image_processing.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/denoise_layer.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[22.726s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[22.727s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[22.728s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[22.728s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[22.728s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[22.728s] -- Up-to-date: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[22.728s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[22.728s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[22.729s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.730s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[22.731s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[22.731s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[22.732s] -- Installing: /home/kazim/construct_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+[22.732s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_costmap_2d/lib/liborder_layer.so" to ""
+[22.737s] Invoked command in '/home/kazim/construct_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_map_server:/home/kazim/construct_ws/install/nav2_lifecycle_manager:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_map_server/lib:/home/kazim/construct_ws/install/nav2_lifecycle_manager/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_costmap_2d

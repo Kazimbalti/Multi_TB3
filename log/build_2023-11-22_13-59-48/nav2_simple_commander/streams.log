@@ -1,0 +1,88 @@
+[0.792s] Invoking command in '/home/kazim/construct_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/build/nav2_simple_commander/prefix_override:/home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/kazim/construct_ws/build/nav2_simple_commander/build install --record /home/kazim/construct_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[1.039s] running egg_info
+[1.040s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.040s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.040s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.040s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.040s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.041s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.042s] creating /home/kazim/construct_ws/build/nav2_simple_commander/build
+[1.042s] creating /home/kazim/construct_ws/build/nav2_simple_commander/build/lib
+[1.042s] creating /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.042s] copying nav2_simple_commander/costmap_2d.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.042s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/demo_security.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/__init__.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/line_iterator.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/demo_recoveries.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/demo_picking.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/robot_navigator.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/demo_inspection.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/example_follow_path.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.043s] running install
+[1.043s] running install_lib
+[1.043s] creating /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.043s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] copying /home/kazim/construct_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.044s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[1.045s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[1.045s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[1.046s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[1.046s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[1.046s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[1.047s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[1.047s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[1.047s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[1.048s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[1.050s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[1.050s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[1.051s] byte-compiling /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[1.051s] running install_data
+[1.051s] creating /home/kazim/construct_ws/install/nav2_simple_commander/share/ament_index
+[1.051s] creating /home/kazim/construct_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[1.051s] creating /home/kazim/construct_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.051s] copying resource/nav2_simple_commander -> /home/kazim/construct_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.051s] copying package.xml -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.051s] copying launch/inspection_demo_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.051s] copying launch/security_demo_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.051s] copying launch/waypoint_follower_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.051s] copying launch/assisted_teleop_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/nav_through_poses_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/follow_path_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/nav_to_pose_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/recoveries_example_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/picking_demo_launch.py -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] copying launch/warehouse.world -> /home/kazim/construct_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.052s] running install_egg_info
+[1.053s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.053s] running install_scripts
+[1.066s] Installing demo_inspection script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.066s] Installing demo_picking script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.066s] Installing demo_recoveries script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.066s] Installing demo_security script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] Installing example_assisted_teleop script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] Installing example_follow_path script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] Installing example_nav_through_poses script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] Installing example_nav_to_pose script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] Installing example_waypoint_follower script to /home/kazim/construct_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.067s] writing list of installed files to '/home/kazim/construct_ws/build/nav2_simple_commander/install.log'
+[1.082s] Invoked command in '/home/kazim/construct_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/build/nav2_simple_commander/prefix_override:/home/kazim/construct_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/kazim/construct_ws/build/nav2_simple_commander/build install --record /home/kazim/construct_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kazim/construct_ws/install/turtlebot3_msgs/include/**",
+        "/home/kazim/construct_ws/install/t3_action_msg/include/**",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_node/include/**",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

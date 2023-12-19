@@ -1,0 +1,185 @@
+[1.372s] Invoking command in '/home/kazim/construct_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_mppi_controller
+[1.609s] -- The C compiler identification is GNU 11.4.0
+[1.967s] -- The CXX compiler identification is GNU 11.4.0
+[2.010s] -- Detecting C compiler ABI info
+[2.381s] -- Detecting C compiler ABI info - done
+[2.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.516s] -- Detecting C compile features
+[2.516s] -- Detecting C compile features - done
+[2.534s] -- Detecting CXX compiler ABI info
+[2.902s] -- Detecting CXX compiler ABI info - done
+[2.951s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.954s] -- Detecting CXX compile features
+[2.956s] -- Detecting CXX compile features - done
+[2.977s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.030s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.452s] -- Performing Test arch_native_supported
+[8.013s] -- Performing Test arch_native_supported - Success
+[8.070s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[8.319s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.340s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.387s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.791s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.808s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[8.936s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[8.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.253s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.254s] -- Found Threads: TRUE  
+[9.814s] -- Found nav2_common: 1.1.12 (/home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake)
+[9.834s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[10.000s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[10.177s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[11.233s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.514s] -- Found nav2_core: 1.1.12 (/home/kazim/construct_ws/install/nav2_core/share/nav2_core/cmake)
+[14.129s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.129s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[19.615s] -- Found tf2_eigen: 0.25.4 (/opt/ros/humble/share/tf2_eigen/cmake)
+[19.632s] -- Setting build type to Release as none was specified.
+[19.637s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[19.911s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[19.914s] -- Performing Test COMPILER_SUPPORTS_FMA
+[20.285s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[41.908s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[41.915s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[42.120s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[129.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[129.577s] -- Configured cppcheck include dirs: /home/kazim/construct_ws/src/navigation2/nav2_mppi_controller/include
+[129.577s] -- Configured cppcheck exclude dirs and/or files: 
+[129.586s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[129.586s] -- Configured cpplint exclude dirs and/or files: 
+[129.591s] -- Added test 'lint_cmake' to check CMake code style
+[129.602s] -- Added test 'uncrustify' to check C / C++ code style
+[129.602s] -- Configured uncrustify additional arguments: 
+[129.605s] -- Added test 'xmllint' to check XML markup files
+[129.612s] -- Configuring done (128.2s)
+[130.717s] -- Generating done (0.9s)
+[130.725s] -- Build files have been written to: /home/kazim/construct_ws/build/nav2_mppi_controller
+[130.767s] Invoked command in '/home/kazim/construct_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_mppi_controller
+[130.771s] Invoking command in '/home/kazim/construct_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_mppi_controller -- -j16 -l16
+[130.877s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[130.878s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[130.879s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[130.886s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[131.913s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[142.946s] [ 13%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[143.954s] [ 15%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[147.305s] [ 17%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[147.309s] [ 19%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[163.213s] [ 21%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[165.215s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[165.215s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[165.215s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[169.094s] [ 30%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[169.725s] [ 30%] Built target mppi_controller
+[169.817s] [ 32%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[183.895s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[184.312s] [ 36%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[184.576s] [ 39%] [32m[1mLinking CXX static library libgtest.a[0m
+[184.664s] [ 39%] Built target gtest
+[184.682s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[186.456s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[186.655s] [ 43%] Built target gtest_main
+[186.721s] [ 45%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[200.391s] [ 47%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[207.728s] [ 50%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[208.167s] [ 50%] Built target optimizer_smoke_test
+[208.181s] [ 52%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[208.185s] [ 54%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[208.185s] [ 56%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[208.186s] [ 58%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[213.685s] [ 60%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[214.897s] [ 60%] Built target mppi_critics
+[215.030s] [ 63%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[215.065s] [ 65%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[215.065s] [ 67%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[234.794s] [ 69%] [32m[1mLinking CXX executable path_handler_test[0m
+[243.043s] [ 69%] Built target path_handler_test
+[244.711s] [ 71%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[246.382s] [ 71%] Built target parameter_handler_test
+[262.421s] [ 73%] [32m[1mLinking CXX executable utils_test[0m
+[266.042s] [ 73%] Built target utils_test
+[269.914s] [ 76%] [32m[1mLinking CXX executable motion_model_tests[0m
+[272.322s] [ 76%] Built target motion_model_tests
+[275.431s] [ 78%] [32m[1mLinking CXX executable critic_manager_test[0m
+[277.425s] [ 78%] Built target critic_manager_test
+[280.591s] [ 80%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[281.153s] [ 80%] Built target optimizer_unit_tests
+[293.388s] [ 82%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[293.818s] [ 82%] Built target trajectory_visualizer_tests
+[293.832s] [ 84%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[308.729s] [ 86%] [32m[1mLinking CXX executable critics_tests[0m
+[309.092s] [ 86%] Built target critics_tests
+[309.103s] [ 89%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[314.081s] [ 91%] [32m[1mLinking CXX executable noise_generator_test[0m
+[314.341s] [ 91%] Built target noise_generator_test
+[314.352s] [ 93%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[319.465s] [ 95%] [32m[1mLinking CXX executable models_test[0m
+[319.678s] [ 95%] Built target models_test
+[319.689s] [ 97%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[331.301s] [100%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[331.761s] [100%] Built target controller_state_transition_test
+[332.112s] Invoked command in '/home/kazim/construct_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_mppi_controller -- -j16 -l16
+[332.234s] Invoking command in '/home/kazim/construct_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_mppi_controller
+[332.303s] -- Install configuration: "Release"
+[332.303s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[332.310s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_mppi_controller/lib/libmppi_controller.so" to ""
+[332.310s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[332.314s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_mppi_controller/lib/libmppi_critics.so" to ""
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include/
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[332.315s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[332.316s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[332.316s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[332.316s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[332.316s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[332.316s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics
+[332.317s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[332.317s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[332.317s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[332.318s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[332.319s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[332.320s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/mppic.xml
+[332.320s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/critics.xml
+[332.322s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[332.323s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[332.323s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[332.323s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[332.324s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[332.324s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[332.324s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[332.325s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[332.325s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[332.325s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[332.325s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[332.326s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[332.326s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[332.327s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[332.328s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[332.328s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[332.329s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[332.330s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[332.331s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[332.331s] -- Installing: /home/kazim/construct_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[332.346s] Invoked command in '/home/kazim/construct_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_core:/home/kazim/construct_ws/install/nav2_costmap_2d:/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_voxel_grid:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_costmap_2d/lib:/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_voxel_grid/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_mppi_controller

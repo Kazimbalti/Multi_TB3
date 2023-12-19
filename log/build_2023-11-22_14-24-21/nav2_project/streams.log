@@ -1,0 +1,22 @@
+[3.204s] Invoking command in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project': PYTHONPATH=/home/kazim/construct_ws/build/nav2_project/prefix_override:/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/kazim/construct_ws/build/nav2_project/build install --record /home/kazim/construct_ws/build/nav2_project/install.log --single-version-externally-managed
+[3.455s] running egg_info
+[3.456s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[3.456s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[3.456s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[3.456s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[3.456s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[3.458s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.459s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.459s] running build
+[3.459s] running build_py
+[3.459s] running install
+[3.460s] running install_lib
+[3.461s] running install_data
+[3.462s] running install_egg_info
+[3.463s] removing '/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info' (and everything under it)
+[3.463s] Copying ../../../build/nav2_project/nav2_project.egg-info to /home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info
+[3.464s] running install_scripts
+[3.482s] Installing go_to_pose script to /home/kazim/construct_ws/install/nav2_project/lib/nav2_project
+[3.483s] Installing spot_recorder script to /home/kazim/construct_ws/install/nav2_project/lib/nav2_project
+[3.483s] writing list of installed files to '/home/kazim/construct_ws/build/nav2_project/install.log'
+[3.902s] Invoked command in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/nav2_project/prefix_override:/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/kazim/construct_ws/build/nav2_project/build install --record /home/kazim/construct_ws/build/nav2_project/install.log --single-version-externally-managed

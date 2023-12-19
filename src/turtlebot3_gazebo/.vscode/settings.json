@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kazim/multi_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/path_follow/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/multi_robot_exploration/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/merge_map/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/drone_control/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_tests/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kazim/multi_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/path_follow/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/multi_robot_exploration/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/merge_map/lib/python3.10/site-packages",
+        "/home/kazim/multi_ws/install/drone_control/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_tests/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials/lib/python3.10/site-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

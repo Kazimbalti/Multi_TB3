@@ -1,0 +1,496 @@
+[1.479s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--allow-overriding', 'turtlebot3_gazebo']
+[1.479s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['turtlebot3_gazebo'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f232c4955d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f232c495000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f232c495000>>)
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.546s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kazim/construct_ws'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore_ament_install'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_pkg']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_pkg'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_meta']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_meta'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ros'
+[1.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_slam' with type 'ros.ament_python' and name 'cartographer_slam'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extensions ['ignore', 'ignore_ament_install']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extension 'ignore_ament_install'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extensions ['colcon_pkg']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_server) by extension 'ros'
+[1.612s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization_server' with type 'ros.ament_python' and name 'localization_server'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extensions ['ignore', 'ignore_ament_install']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extension 'ignore'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extension 'ignore_ament_install'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extensions ['colcon_pkg']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extension 'colcon_pkg'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extensions ['colcon_meta']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extension 'colcon_meta'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_server) by extension 'ros'
+[1.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_server' with type 'ros.ament_python' and name 'map_server'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extensions ['ignore', 'ignore_ament_install']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extension 'ignore'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extension 'ignore_ament_install'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extensions ['colcon_pkg']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extension 'colcon_pkg'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extensions ['colcon_meta']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extension 'colcon_meta'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planner_server) by extension 'ros'
+[1.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_planner_server' with type 'ros.ament_python' and name 'path_planner_server'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['ignore', 'ignore_ament_install']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'ignore'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'ignore_ament_install'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['colcon_pkg']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'colcon_pkg'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['colcon_meta']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'colcon_meta'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['ros']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'ros'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['cmake', 'python']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'cmake'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'python'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extensions ['python_setup_py']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files) by extension 'python_setup_py'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extensions ['ignore', 'ignore_ament_install']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extension 'ignore'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extension 'ignore_ament_install'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extensions ['colcon_pkg']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extension 'colcon_pkg'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extensions ['colcon_meta']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extension 'colcon_meta'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extensions ['ros']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_course) by extension 'ros'
+[1.615s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_nav_files/nav2_course' with type 'ros.ament_cmake' and name 'nav2_course'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extensions ['ignore', 'ignore_ament_install']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extension 'ignore'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extensions ['colcon_pkg']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extension 'colcon_pkg'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extensions ['colcon_meta']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extension 'colcon_meta'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extensions ['ros']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/nav2_project) by extension 'ros'
+[1.616s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_nav_files/nav2_project' with type 'ros.ament_python' and name 'nav2_project'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['ignore', 'ignore_ament_install']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'ignore'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'ignore_ament_install'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['colcon_pkg']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'colcon_pkg'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['colcon_meta']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'colcon_meta'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['ros']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'ros'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['cmake', 'python']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'cmake'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'python'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extensions ['python_setup_py']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_nav_files/rviz) by extension 'python_setup_py'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['ignore', 'ignore_ament_install']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'ignore'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'ignore_ament_install'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['colcon_pkg']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'colcon_pkg'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['colcon_meta']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'colcon_meta'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['ros']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'ros'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['cmake', 'python']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'cmake'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'python'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extensions ['python_setup_py']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz2) by extension 'python_setup_py'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_pkg'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_meta']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_meta'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ros']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ros'
+[1.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.793s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/kazim/multi_ws/install
+[1.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/kazim/turtlebot4_ws/install
+[1.836s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 531 installed packages in /opt/ros/humble
+[1.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_first' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_force_configure' from command line to 'False'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'ament_cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.963s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.963s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/cartographer_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/cartographer_slam', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/cartographer_slam', 'symlink_install': False, 'test_result_base': None}
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_args' from command line to 'None'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_target' from command line to 'None'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.984s] Level 5:colcon.colcon_core.verb:set package 'localization_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.984s] DEBUG:colcon.colcon_core.verb:Building package 'localization_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/localization_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/localization_server', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/localization_server', 'symlink_install': False, 'test_result_base': None}
+[2.007s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_target' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_clean_first' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'cmake_force_configure' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'ament_cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.008s] DEBUG:colcon.colcon_core.verb:Building package 'map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/map_server', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/map_server', 'symlink_install': False, 'test_result_base': None}
+[2.028s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_args' from command line to 'None'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_target' from command line to 'None'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_clean_cache' from command line to 'False'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_clean_first' from command line to 'False'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'cmake_force_configure' from command line to 'False'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'ament_cmake_args' from command line to 'None'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'catkin_cmake_args' from command line to 'None'
+[2.029s] Level 5:colcon.colcon_core.verb:set package 'nav2_course' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.029s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_course' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/nav2_course', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/nav2_course', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/ros2_nav_files/nav2_course', 'symlink_install': False, 'test_result_base': None}
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_args' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_target' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_clean_cache' from command line to 'False'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_clean_first' from command line to 'False'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'cmake_force_configure' from command line to 'False'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'ament_cmake_args' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'catkin_cmake_args' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'nav2_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.050s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/nav2_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/nav2_project', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project', 'symlink_install': False, 'test_result_base': None}
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_args' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_target' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_clean_cache' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_clean_first' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'cmake_force_configure' from command line to 'False'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'ament_cmake_args' from command line to 'None'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'catkin_cmake_args' from command line to 'None'
+[2.073s] Level 5:colcon.colcon_core.verb:set package 'path_planner_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.073s] DEBUG:colcon.colcon_core.verb:Building package 'path_planner_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/path_planner_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/path_planner_server', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/path_planner_server', 'symlink_install': False, 'test_result_base': None}
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.097s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kazim/construct_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kazim/construct_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/kazim/construct_ws/src/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.118s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.142s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kazim/construct_ws/src/cartographer_slam' with build type 'ament_python'
+[2.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'ament_prefix_path')
+[2.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.ps1'
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.dsv'
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/ament_prefix_path.sh'
+[2.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.286s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kazim/construct_ws/src/localization_server' with build type 'ament_python'
+[2.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_server', 'ament_prefix_path')
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/ament_prefix_path.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/ament_prefix_path.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/ament_prefix_path.sh'
+[2.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.428s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kazim/construct_ws/src/map_server' with build type 'ament_python'
+[2.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_server', 'ament_prefix_path')
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/map_server/share/map_server/hook/ament_prefix_path.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/map_server/share/map_server/hook/ament_prefix_path.dsv'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/map_server/share/map_server/hook/ament_prefix_path.sh'
+[2.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.624s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_course' with build type 'ament_cmake'
+[2.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_course'
+[2.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.739s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project' with build type 'ament_python'
+[2.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_project', 'ament_prefix_path')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/ament_prefix_path.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/ament_prefix_path.dsv'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/ament_prefix_path.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.885s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kazim/construct_ws/src/path_planner_server' with build type 'ament_python'
+[2.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner_server', 'ament_prefix_path')
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/ament_prefix_path.ps1'
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/ament_prefix_path.dsv'
+[2.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/ament_prefix_path.sh'
+[2.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.934s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.027s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kazim/construct_ws/src/turtlebot3_gazebo' with build type 'ament_cmake'
+[3.028s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kazim/construct_ws/src/turtlebot3_gazebo'
+[3.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kazim/construct_ws/src/cartographer_slam'
+[3.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kazim/construct_ws/src/localization_server'
+[4.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kazim/construct_ws/src/map_server'
+[4.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[5.099s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project'
+[5.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.620s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kazim/construct_ws/src/path_planner_server'
+[5.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16
+[5.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_course -- -j16 -l16
+[5.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/build/nav2_course': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course
+[5.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16
+[5.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_course)
+[5.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/build/nav2_course' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_course
+[6.007s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course' for CMake module files
+[6.008s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course' for CMake config files
+[6.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_course', 'cmake_prefix_path')
+[6.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.ps1'
+[6.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.dsv'
+[6.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.sh'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/bin'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/lib/pkgconfig/nav2_course.pc'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/lib/python3.10/site-packages'
+[6.038s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/bin'
+[6.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.ps1'
+[6.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.dsv'
+[6.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.sh'
+[6.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.bash'
+[6.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.zsh'
+[6.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/nav2_course/share/colcon-core/packages/nav2_course)
+[6.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/turtlebot3_gazebo
+[6.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[6.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/multi_ws/install/sjtu_drone_bringup:/home/kazim/multi_ws/install/path_follow:/home/kazim/multi_ws/install/multi_robot_exploration:/home/kazim/multi_ws/install/merge_map:/home/kazim/multi_ws/install/drone_control:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/turtlebot3_gazebo
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo' for CMake module files
+[6.173s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo' for CMake config files
+[6.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[6.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[6.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[6.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/bin'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/bin'
+[6.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[6.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[6.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[6.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[6.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[6.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[6.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_course)
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course' for CMake module files
+[6.306s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course' for CMake config files
+[6.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_course', 'cmake_prefix_path')
+[6.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.ps1'
+[6.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.dsv'
+[6.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/hook/cmake_prefix_path.sh'
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/bin'
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/lib/pkgconfig/nav2_course.pc'
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/lib/python3.10/site-packages'
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_course/bin'
+[6.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.ps1'
+[6.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.dsv'
+[6.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.sh'
+[6.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.bash'
+[6.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_course/share/nav2_course/package.zsh'
+[6.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/nav2_course/share/colcon-core/packages/nav2_course)
+[6.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[6.564s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo' for CMake module files
+[6.565s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo' for CMake config files
+[6.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[6.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[6.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[6.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/bin'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/turtlebot3_gazebo/bin'
+[6.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[6.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[6.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[6.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[6.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[6.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[6.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project': PYTHONPATH=/home/kazim/construct_ws/build/nav2_project/prefix_override:/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/kazim/construct_ws/build/nav2_project/build install --record /home/kazim/construct_ws/build/nav2_project/install.log --single-version-externally-managed
+[6.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/src/localization_server': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed
+[6.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/src/cartographer_slam': PYTHONPATH=/home/kazim/construct_ws/build/cartographer_slam/prefix_override:/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/kazim/construct_ws/build/cartographer_slam/build install --record /home/kazim/construct_ws/build/cartographer_slam/install.log --single-version-externally-managed
+[6.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/src/map_server': PYTHONPATH=/home/kazim/construct_ws/build/map_server/prefix_override:/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/kazim/construct_ws/build/map_server/build install --record /home/kazim/construct_ws/build/map_server/install.log --single-version-externally-managed
+[6.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kazim/construct_ws/src/path_planner_server': PYTHONPATH=/home/kazim/construct_ws/build/path_planner_server/prefix_override:/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/kazim/construct_ws/build/path_planner_server/build install --record /home/kazim/construct_ws/build/path_planner_server/install.log --single-version-externally-managed
+[7.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/nav2_project/prefix_override:/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/kazim/construct_ws/build/nav2_project/build install --record /home/kazim/construct_ws/build/nav2_project/install.log --single-version-externally-managed
+[7.324s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project' for CMake module files
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project' for CMake config files
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project/lib'
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project/bin'
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project/lib/pkgconfig/nav2_project.pc'
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project/lib/python3.10/site-packages'
+[7.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_project', 'pythonpath')
+[7.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/pythonpath.ps1'
+[7.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/pythonpath.dsv'
+[7.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/hook/pythonpath.sh'
+[7.356s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/nav2_project/bin'
+[7.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_project)
+[7.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/package.ps1'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/package.dsv'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/package.sh'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/package.bash'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/nav2_project/share/nav2_project/package.zsh'
+[7.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/nav2_project/share/colcon-core/packages/nav2_project)
+[7.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/src/localization_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/localization_server/prefix_override:/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/kazim/construct_ws/build/localization_server/build install --record /home/kazim/construct_ws/build/localization_server/install.log --single-version-externally-managed
+[7.408s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server' for CMake module files
+[7.409s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server' for CMake config files
+[7.409s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server/lib'
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server/bin'
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server/lib/pkgconfig/localization_server.pc'
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server/lib/python3.10/site-packages'
+[7.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_server', 'pythonpath')
+[7.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/pythonpath.ps1'
+[7.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/pythonpath.dsv'
+[7.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/localization_server/share/localization_server/hook/pythonpath.sh'
+[7.434s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/localization_server/bin'
+[7.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_server)
+[7.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/localization_server/share/localization_server/package.ps1'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/localization_server/share/localization_server/package.dsv'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/localization_server/share/localization_server/package.sh'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/localization_server/share/localization_server/package.bash'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/localization_server/share/localization_server/package.zsh'
+[7.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/localization_server/share/colcon-core/packages/localization_server)
+[7.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/src/map_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/map_server/prefix_override:/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/kazim/construct_ws/build/map_server/build install --record /home/kazim/construct_ws/build/map_server/install.log --single-version-externally-managed
+[7.486s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server' for CMake module files
+[7.486s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server' for CMake config files
+[7.487s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server/lib'
+[7.487s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server/bin'
+[7.487s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server/lib/pkgconfig/map_server.pc'
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages'
+[7.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_server', 'pythonpath')
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/map_server/share/map_server/hook/pythonpath.ps1'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/map_server/share/map_server/hook/pythonpath.dsv'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/map_server/share/map_server/hook/pythonpath.sh'
+[7.512s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/map_server/bin'
+[7.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_server)
+[7.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/map_server/share/map_server/package.ps1'
+[7.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/map_server/share/map_server/package.dsv'
+[7.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/map_server/share/map_server/package.sh'
+[7.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/map_server/share/map_server/package.bash'
+[7.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/map_server/share/map_server/package.zsh'
+[7.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/map_server/share/colcon-core/packages/map_server)
+[7.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/src/cartographer_slam' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/cartographer_slam/prefix_override:/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/kazim/construct_ws/build/cartographer_slam/build install --record /home/kazim/construct_ws/build/cartographer_slam/install.log --single-version-externally-managed
+[7.563s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam' for CMake module files
+[7.564s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam' for CMake config files
+[7.565s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam/lib'
+[7.565s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam/bin'
+[7.565s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam/lib/pkgconfig/cartographer_slam.pc'
+[7.565s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages'
+[7.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'pythonpath')
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.ps1'
+[7.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.dsv'
+[7.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/hook/pythonpath.sh'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/cartographer_slam/bin'
+[7.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_slam)
+[7.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/package.ps1'
+[7.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/package.dsv'
+[7.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/package.sh'
+[7.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/package.bash'
+[7.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/cartographer_slam/share/cartographer_slam/package.zsh'
+[7.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/cartographer_slam/share/colcon-core/packages/cartographer_slam)
+[7.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kazim/construct_ws/src/path_planner_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/path_planner_server/prefix_override:/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/kazim/construct_ws/build/path_planner_server/build install --record /home/kazim/construct_ws/build/path_planner_server/install.log --single-version-externally-managed
+[7.641s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server' for CMake module files
+[7.641s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server' for CMake config files
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server/lib'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server/bin'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server/lib/pkgconfig/path_planner_server.pc'
+[7.643s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server/lib/python3.10/site-packages'
+[7.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planner_server', 'pythonpath')
+[7.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/pythonpath.ps1'
+[7.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/pythonpath.dsv'
+[7.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/hook/pythonpath.sh'
+[7.668s] Level 1:colcon.colcon_core.environment:checking '/home/kazim/construct_ws/install/path_planner_server/bin'
+[7.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planner_server)
+[7.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/package.ps1'
+[7.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/package.dsv'
+[7.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/package.sh'
+[7.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/package.bash'
+[7.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/kazim/construct_ws/install/path_planner_server/share/path_planner_server/package.zsh'
+[7.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kazim/construct_ws/install/path_planner_server/share/colcon-core/packages/path_planner_server)
+[7.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.696s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.728s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.746s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kazim/construct_ws/install/local_setup.ps1'
+[7.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kazim/construct_ws/install/_local_setup_util_ps1.py'
+[7.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kazim/construct_ws/install/setup.ps1'
+[7.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kazim/construct_ws/install/local_setup.sh'
+[7.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kazim/construct_ws/install/_local_setup_util_sh.py'
+[7.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kazim/construct_ws/install/setup.sh'
+[7.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kazim/construct_ws/install/local_setup.bash'
+[7.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kazim/construct_ws/install/setup.bash'
+[7.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kazim/construct_ws/install/local_setup.zsh'
+[7.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kazim/construct_ws/install/setup.zsh'

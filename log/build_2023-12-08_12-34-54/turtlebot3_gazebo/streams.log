@@ -1,0 +1,84 @@
+[1.947s] Invoking command in '/home/kazim/construct_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16
+[1.977s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.072s] [33mCMake Warning (dev) at /home/kazim/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.072s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[2.072s]   does not match the name of the calling package (gazebo).  This can lead to
+[2.073s]   problems in calling code that expects `find_package` result variables
+[2.073s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.073s] Call Stack (most recent call first):
+[2.073s]   /home/kazim/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[2.073s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[2.073s]   CMakeLists.txt:23 (find_package)
+[2.073s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.073s] [0m
+[2.088s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.111s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.112s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.115s] -- Searching for dependencies of ignition-math6
+[2.116s] -- Looking for OGRE...
+[2.119s] -- Found Ogre Ghadamon (1.9.0)
+[2.119s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.128s] -- Looking for OGRE_Paging...
+[2.128s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.128s] -- Looking for OGRE_Terrain...
+[2.128s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.128s] -- Looking for OGRE_Property...
+[2.128s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.128s] -- Looking for OGRE_RTShaderSystem...
+[2.128s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.128s] -- Looking for OGRE_Volume...
+[2.128s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.128s] -- Looking for OGRE_Overlay...
+[2.128s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.300s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.300s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.300s] -- Searching for dependencies of ignition-transport8
+[2.318s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.330s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.337s] -- Checking for module 'libzmq >= 4'
+[2.348s] --   Found libzmq , version 4.3.4
+[2.377s] -- Checking for module 'uuid'
+[2.388s] --   Found uuid, version 2.37.2
+[2.409s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.409s] -- Searching for dependencies of ignition-msgs5
+[2.432s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.437s] -- Checking for module 'tinyxml2'
+[2.449s] --   Found tinyxml2, version 9.0.0
+[2.468s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.468s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.469s] -- Searching for dependencies of ignition-common3
+[2.469s] -- Looking for dlfcn.h - found
+[2.469s] -- Looking for libdl - found
+[2.479s] -- Searching for <ignition-common3> component [graphics]
+[2.479s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.479s] -- Searching for dependencies of ignition-common3-graphics
+[2.479s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.480s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.480s] -- Searching for dependencies of ignition-fuel_tools4
+[2.511s] -- Checking for module 'jsoncpp'
+[2.519s] --   Found jsoncpp, version 1.9.5
+[2.539s] -- Checking for module 'libzip'
+[2.546s] --   Found libzip, version 1.7.3
+[2.562s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.562s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.563s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.573s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[2.573s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[2.573s]   project has asked CMake to find a package configuration file provided by
+[2.573s]   "gazebo_ros_pkgs", but CMake did not find one.
+[2.574s] 
+[2.574s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[2.574s]   with any of the following names:
+[2.574s] 
+[2.574s]     gazebo_ros_pkgsConfig.cmake
+[2.574s]     gazebo_ros_pkgs-config.cmake
+[2.574s] 
+[2.574s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[2.574s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[2.574s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[2.574s]   sure it has been installed.
+[2.574s] 
+[2.574s] [0m
+[2.574s] -- Configuring incomplete, errors occurred!
+[2.578s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[2.584s] Invoked command in '/home/kazim/construct_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/turtlebot3_gazebo -- -j16 -l16

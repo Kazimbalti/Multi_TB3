@@ -1,0 +1,20 @@
+[2.436s] Invoking command in '/home/kazim/construct_ws/src/cartographer_slam': PYTHONPATH=/home/kazim/construct_ws/build/cartographer_slam/prefix_override:/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/kazim/construct_ws/build/cartographer_slam/build install --record /home/kazim/construct_ws/build/cartographer_slam/install.log --single-version-externally-managed
+[2.660s] running egg_info
+[2.660s] writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO
+[2.663s] writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt
+[2.663s] writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt
+[2.663s] writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt
+[2.663s] writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt
+[2.665s] reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[2.666s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[2.666s] running build
+[2.666s] running build_py
+[2.666s] running install
+[2.666s] running install_lib
+[2.668s] running install_data
+[2.668s] running install_egg_info
+[2.670s] removing '/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[2.670s] Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info
+[2.670s] running install_scripts
+[2.684s] writing list of installed files to '/home/kazim/construct_ws/build/cartographer_slam/install.log'
+[2.872s] Invoked command in '/home/kazim/construct_ws/src/cartographer_slam' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/cartographer_slam/prefix_override:/home/kazim/construct_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/kazim/construct_ws/build/cartographer_slam/build install --record /home/kazim/construct_ws/build/cartographer_slam/install.log --single-version-externally-managed

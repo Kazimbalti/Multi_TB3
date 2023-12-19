@@ -1,0 +1,143 @@
+[0.187s] Invoking command in '/home/kazim/construct_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_amcl
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.002s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.094s] -- Found nav2_common: 1.1.12 (/home/kazim/construct_ws/install/nav2_common/share/nav2_common/cmake)
+[1.099s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.175s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.182s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.193s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.308s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.312s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.349s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.407s] -- Found Threads: TRUE  
+[1.570s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.611s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.673s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.680s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.740s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.742s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.742s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.989s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.061s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.130s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.149s] -- Found nav2_util: 1.1.12 (/home/kazim/construct_ws/install/nav2_util/share/nav2_util/cmake)
+[2.513s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.532s] -- Setting build type to Release as none was specified.
+[2.532s] -- Looking for drand48
+[2.572s] -- Looking for drand48 - found
+[4.801s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.886s] -- Configured cppcheck include dirs: /home/kazim/construct_ws/src/navigation2/nav2_amcl/include;/home/kazim/construct_ws/src/navigation2/nav2_amcl/src/include
+[4.886s] -- Configured cppcheck exclude dirs and/or files: 
+[4.888s] -- Added test 'lint_cmake' to check CMake code style
+[4.890s] -- Added test 'uncrustify' to check C / C++ code style
+[4.890s] -- Configured uncrustify additional arguments: 
+[4.891s] -- Added test 'xmllint' to check XML markup files
+[4.894s] -- Configuring done (4.7s)
+[4.982s] -- Generating done (0.1s)
+[4.986s] -- Build files have been written to: /home/kazim/construct_ws/build/nav2_amcl
+[5.015s] Invoked command in '/home/kazim/construct_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake /home/kazim/construct_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/kazim/construct_ws/install/nav2_amcl
+[5.016s] Invoking command in '/home/kazim/construct_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_amcl -- -j16 -l16
+[5.090s] [  4%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_kdtree.c.o[0m
+[5.090s] [  8%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_pdf.c.o[0m
+[5.090s] [ 12%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[5.093s] [ 20%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_range.c.o[0m
+[5.093s] [ 20%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map.c.o[0m
+[5.093s] [ 25%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_draw.c.o[0m
+[5.094s] [ 29%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_vector.c.o[0m
+[5.094s] [ 33%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/eig3.c.o[0m
+[5.096s] [ 37%] [32mBuilding CXX object src/map/CMakeFiles/map_lib.dir/map_cspace.cpp.o[0m
+[5.156s] [ 41%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_draw.c.o[0m
+[5.313s] [ 45%] [32m[1mLinking C shared library libpf_lib.so[0m
+[5.359s] [ 45%] Built target pf_lib
+[5.373s] [ 50%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o[0m
+[5.373s] [ 54%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o[0m
+[5.590s] [ 58%] [32m[1mLinking CXX shared library libmap_lib.so[0m
+[5.691s] [ 58%] Built target map_lib
+[5.705s] [ 62%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o[0m
+[5.732s] [ 66%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o[0m
+[5.751s] [ 70%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o[0m
+[5.754s] [ 75%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[6.333s] [ 79%] [32m[1mLinking CXX shared library libsensors_lib.so[0m
+[6.445s] [ 79%] Built target sensors_lib
+[6.460s] [ 83%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[6.559s] [ 87%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[6.809s] [ 87%] Built target motions_lib
+[37.889s] [ 91%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[38.168s] [ 91%] Built target amcl_core
+[38.180s] [ 95%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[41.790s] [100%] [32m[1mLinking CXX executable amcl[0m
+[42.003s] [100%] Built target amcl
+[42.013s] Invoked command in '/home/kazim/construct_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --build /home/kazim/construct_ws/build/nav2_amcl -- -j16 -l16
+[42.060s] Invoking command in '/home/kazim/construct_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_amcl
+[42.087s] -- Install configuration: "Release"
+[42.087s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/libamcl_core.so
+[42.089s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_amcl/lib/libamcl_core.so" to ""
+[42.089s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[42.089s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+[42.089s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include/
+[42.089s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl
+[42.089s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf
+[42.089s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/sensors
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/map
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[42.090s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/plugins.xml
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[42.091s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[42.092s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[42.093s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[42.094s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/libpf_lib.so
+[42.094s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/libmap_lib.so
+[42.095s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/libmotions_lib.so
+[42.095s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""
+[42.095s] -- Installing: /home/kazim/construct_ws/install/nav2_amcl/lib/libsensors_lib.so
+[42.095s] -- Set runtime path of "/home/kazim/construct_ws/install/nav2_amcl/lib/libsensors_lib.so" to ""
+[42.100s] Invoked command in '/home/kazim/construct_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kazim/construct_ws/install/nav2_util:/home/kazim/construct_ws/install/nav2_msgs:/home/kazim/construct_ws/install/nav2_common:/home/kazim/construct_ws/install/turtlebot3_gazebo:/home/kazim/construct_ws/install/nav2_course:/home/kazim/turtlebot4_ws/install/turtlebot4_simulator:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_desktop:/home/kazim/turtlebot4_ws/install/turtlebot4_viz:/home/kazim/turtlebot4_ws/install/turtlebot4_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_robot:/home/kazim/turtlebot4_ws/install/turtlebot4_bringup:/home/kazim/turtlebot4_ws/install/turtlebot4_base:/home/kazim/turtlebot4_ws/install/turtlebot4_node:/home/kazim/turtlebot4_ws/install/turtlebot4_navigation:/home/kazim/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs:/home/kazim/turtlebot4_ws/install/turtlebot4_description:/home/kazim/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/kazim/construct_ws/install/path_planner_server:/home/kazim/construct_ws/install/nav2_project:/home/kazim/construct_ws/install/my_package:/home/kazim/construct_ws/install/map_server:/home/kazim/construct_ws/install/localization_server:/home/kazim/construct_ws/install/cartographer_slam:/home/kazim/turtlebot4_ws/install/turtlebot4_tests:/home/kazim/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/kazim/turtlebot4_ws/install/turtlebot4_diagnostics:/opt/ros/humble LD_LIBRARY_PATH=/home/kazim/construct_ws/install/nav2_util/lib:/home/kazim/construct_ws/install/nav2_msgs/lib:/home/kazim/turtlebot4_ws/install/turtlebot4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kazim/kazim_MPC/acados/lib PYTHONPATH=/home/kazim/construct_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/kazim/construct_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/kazim/.local/bin/cmake --install /home/kazim/construct_ws/build/nav2_amcl

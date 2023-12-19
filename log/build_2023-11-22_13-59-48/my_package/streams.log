@@ -1,0 +1,20 @@
+[3.405s] Invoking command in '/home/kazim/construct_ws/src/my_package': PYTHONPATH=/home/kazim/construct_ws/build/my_package/prefix_override:/home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/kazim/construct_ws/build/my_package/build install --record /home/kazim/construct_ws/build/my_package/install.log --single-version-externally-managed
+[4.058s] running egg_info
+[4.063s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[4.063s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[4.063s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[4.063s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[4.063s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[4.068s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.073s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.073s] running build
+[4.073s] running build_py
+[4.073s] running install
+[4.073s] running install_lib
+[4.073s] running install_data
+[4.074s] running install_egg_info
+[4.075s] removing '/home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.075s] Copying ../../build/my_package/my_package.egg-info to /home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.076s] running install_scripts
+[4.106s] writing list of installed files to '/home/kazim/construct_ws/build/my_package/install.log'
+[4.900s] Invoked command in '/home/kazim/construct_ws/src/my_package' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/my_package/prefix_override:/home/kazim/construct_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/kazim/construct_ws/build/my_package/build install --record /home/kazim/construct_ws/build/my_package/install.log --single-version-externally-managed

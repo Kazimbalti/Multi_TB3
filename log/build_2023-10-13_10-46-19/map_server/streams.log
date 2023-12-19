@@ -1,0 +1,40 @@
+[4.530s] Invoking command in '/home/kazim/construct_ws/src/map_server': PYTHONPATH=/home/kazim/construct_ws/build/map_server/prefix_override:/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/kazim/construct_ws/build/map_server/build install --record /home/kazim/construct_ws/build/map_server/install.log --single-version-externally-managed
+[4.941s] running egg_info
+[4.941s] creating ../../build/map_server/map_server.egg-info
+[4.942s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[4.942s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[4.942s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[4.943s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[4.943s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[4.943s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[4.948s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[4.949s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[4.949s] running build
+[4.949s] running build_py
+[4.949s] creating /home/kazim/construct_ws/build/map_server/build
+[4.950s] creating /home/kazim/construct_ws/build/map_server/build/lib
+[4.950s] creating /home/kazim/construct_ws/build/map_server/build/lib/map_server
+[4.950s] copying map_server/__init__.py -> /home/kazim/construct_ws/build/map_server/build/lib/map_server
+[4.950s] running install
+[4.950s] running install_lib
+[4.951s] creating /home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server
+[4.952s] copying /home/kazim/construct_ws/build/map_server/build/lib/map_server/__init__.py -> /home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server
+[4.953s] byte-compiling /home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server/__init__.py to __init__.cpython-310.pyc
+[4.953s] running install_data
+[4.955s] creating /home/kazim/construct_ws/install/map_server/share/ament_index
+[4.955s] creating /home/kazim/construct_ws/install/map_server/share/ament_index/resource_index
+[4.955s] creating /home/kazim/construct_ws/install/map_server/share/ament_index/resource_index/packages
+[4.955s] copying resource/map_server -> /home/kazim/construct_ws/install/map_server/share/ament_index/resource_index/packages
+[4.955s] copying package.xml -> /home/kazim/construct_ws/install/map_server/share/map_server
+[4.955s] creating /home/kazim/construct_ws/install/map_server/share/map_server/launch
+[4.955s] copying launch/nav2_map_server.launch.py -> /home/kazim/construct_ws/install/map_server/share/map_server/launch
+[4.955s] creating /home/kazim/construct_ws/install/map_server/share/map_server/config
+[4.956s] copying config/turtlebot_area.yaml -> /home/kazim/construct_ws/install/map_server/share/map_server/config
+[4.956s] copying config/multi_turtlebot_area.pgm -> /home/kazim/construct_ws/install/map_server/share/map_server/config
+[4.956s] copying config/turtlebot_area.pgm -> /home/kazim/construct_ws/install/map_server/share/map_server/config
+[4.957s] copying config/multi_turtlebot_area.yaml -> /home/kazim/construct_ws/install/map_server/share/map_server/config
+[4.957s] running install_egg_info
+[4.962s] Copying ../../build/map_server/map_server.egg-info to /home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[4.963s] running install_scripts
+[5.001s] writing list of installed files to '/home/kazim/construct_ws/build/map_server/install.log'
+[5.284s] Invoked command in '/home/kazim/construct_ws/src/map_server' returned '0': PYTHONPATH=/home/kazim/construct_ws/build/map_server/prefix_override:/home/kazim/construct_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map_server build --build-base /home/kazim/construct_ws/build/map_server/build install --record /home/kazim/construct_ws/build/map_server/install.log --single-version-externally-managed
